@@ -5,3 +5,7 @@ TetrisPanel::TetrisPanel(QWidget *parent)
 {
     ui.setupUi(this);
 }
+
+TetrisPanel::~TetrisPanel()
+{
+}

@@ -9,6 +9,7 @@ class TetrisPanel : public QWidget
 
 public:
     TetrisPanel(QWidget *parent = Q_NULLPTR);
+	~TetrisPanel();
 
 private:
     Ui::TetrisPanelClass ui;
