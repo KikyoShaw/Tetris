@@ -12,5 +12,13 @@ public:
 	~TetrisPanel();
 
 private:
+	virtual void mouseMoveEvent(QMouseEvent *event);
+	virtual void mousePressEvent(QMouseEvent *event);
+	virtual void mouseReleaseEvent(QMouseEvent *event);
+
+private:
     Ui::TetrisPanelClass ui;
+	//窗口移动属性值
+	QPoint m_point;
+	bool m_bMove = false;
 };
